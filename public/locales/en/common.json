@@ -4,6 +4,7 @@
   "description": "Our simple editor allows you to quickly add and customize all the sections you need for your project's readme",
   "get-started": "Get Started",
   "made-with-love": "Made with ",
+  "adapted": "Adapted ",
   "by": " by",
   "language": "Language",
   "translation-error": "Incorrect Translation?"
