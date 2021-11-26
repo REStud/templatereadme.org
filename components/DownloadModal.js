@@ -57,7 +57,7 @@ Leaving: "ease-in duration-200"
                   <p className="text-sm text-gray-500 dark:text-gray-300">
                     {t('download-reach-out')}{' '}
                     <a
-                      href="https://twitter.com/katherinecodes"
+                      href="https://twitter.com/korenmiklos"
                       target="_blank"
                       className="text-emerald-500 hover:text-emerald-400"
                     >
@@ -68,20 +68,6 @@ Leaving: "ease-in duration-200"
                   <p className="mt-3 text-sm text-gray-500">{t('download-coffee')}</p>
                 </div>
               </div>
-            </div>
-            <div className="flex justify-center mx-auto mt-5 sm:mt-6">
-              <a href="https://www.buymeacoffee.com/katherinecodes">
-                <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=katherinecodes&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
-              </a>
-            </div>
-            <div className="flex justify-center items-center mt-3">
-              <iframe
-                src="https://github.com/sponsors/octokatherine/button"
-                title="Sponsor octokatherine"
-                height="35"
-                width="116"
-                className="border-0"
-              ></iframe>
             </div>
           </div>
         </div>
