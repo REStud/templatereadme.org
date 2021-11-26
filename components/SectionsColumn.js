@@ -161,7 +161,7 @@ export const SectionsColumn = ({
 
   const { t } = useTranslation('editor')
 
-  let alphabetizedSectionSlugs = sectionSlugs.sort()
+  let alphabetizedSectionSlugs = sectionSlugs
 
   return (
     <div className="sections w-80">

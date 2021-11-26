@@ -1,7 +1,7 @@
 export const en_EN = [
   {
-    slug: 'title',
-    name: 'Title',
+    slug: 'title-and-description',
+    name: 'Title and Article Reference',
     markdown: `
 # Replication Package for: Article Title
 ## Date
