@@ -1,10 +1,10 @@
 export default {
-  defaultTitle: 'readme.so',
-  description: `Use readme.so's markdown editor and templates to easily create a ReadMe for your projects`,
+  defaultTitle: 'templatereadme.org',
+  description: `Use templatereadme.org's markdown editor and templates to easily create a README for your replication package`,
   additionalMetaTags: [
     {
       property: 'keywords',
-      content: 'readme, easiest, create, markdown, git, github, gitlab',
+      content: 'readme, easiest, create, markdown',
     },
     {
       name: 'theme_color',
@@ -29,23 +29,23 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://readme.so/',
-    title: 'readme.so',
-    description: `Use readme.so's markdown editor and templates to easily create a ReadMe for your projects`,
+    url: 'https://templatereadme.org/',
+    title: 'templatereadme.org',
+    description: `Use templatereadme.org markdown editor and templates to easily create a README for your replication package`,
     images: [
       {
-        url: 'https://readme.so/readme.png',
+        url: 'https://templatereadme.org/readme.png',
         width: 375,
         height: 375,
         alt: 'Og Image Alt',
       },
     ],
-    site_name: 'readme.so',
+    site_name: 'templatereadme.org',
     imageWidth: 1200,
     imageHeight: 1200,
   },
   twitter: {
-    handle: '@katherinecodes',
+    handle: '@korenmiklos',
     cardType: 'summary',
   },
 }

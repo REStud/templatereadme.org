@@ -1,10 +1,10 @@
 {
-  "title": "The easiest way to create a",
+  "title": "Create a replication package",
   "readme": "README",
-  "description": "Our simple editor allows you to quickly add and customize all the sections you need for your project's readme",
+  "description": "Our simple editor allows you to quickly add and customize all the sections you need for the README document of your replication package",
   "get-started": "Get Started",
   "made-with-love": "Made with ",
-  "adapted": "Adapted ",
+  "adapted": "Adapted from ",
   "by": " by",
   "language": "Language",
   "translation-error": "Incorrect Translation?"

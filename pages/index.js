@@ -15,7 +15,7 @@ const Home = () => {
         <script
           async
           defer
-          data-domain="readme.so"
+          data-domain="templatereadme.org"
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
@@ -123,15 +123,6 @@ const Home = () => {
                   </span>
                 </div>
               </div>
-              <div className="flex justify-center items-center mt-3">
-                <iframe
-                  src="https://github.com/sponsors/octokatherine/button"
-                  title="Sponsor octokatherine"
-                  height="35"
-                  width="116"
-                  className="border-0"
-                ></iframe>
-              </div>
             </div>
           </div>
           <div className="relative">
@@ -161,9 +152,29 @@ const Home = () => {
                 Katherine Peterson
               </a>
             </h2>
+            <h2 className="text-sm font-semibold tracking-wide text-center text-gray-400">
+              {t('adapted')}
+              <a
+                className="hover:text-emerald-500"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://readme.so"
+              >
+                readme.so
+              </a>
+              {t('by')}{' '}
+              <a
+                className="hover:text-emerald-500"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/korenmiklos"
+              >
+                Miklós Koren
+              </a>
+            </h2>
             <div className="flex justify-center mt-4">
               <a
-                href="https://github.com/octokatherine/readme.so"
+                href="https://github.com/restud/templatereadme.org"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="github logo"
