@@ -147,7 +147,14 @@ export const SectionsColumn = ({
       const slugList = data ? data.split(',') : []
 
       setSectionSlugs((prev) => [...prev, ...slugList].filter((s) => s !== 'title-and-description'))
-      setSelectedSectionSlugs(['title-and-description'])
+      setSelectedSectionSlugs([
+        'title-and-description',
+        'authors',
+        'data-availability',
+        'description',
+        'tables',
+        'references',
+      ])
       setFocusedSectionSlug('title-and-description')
       localStorage.setItem('current-focused-slug', 'noEdit')
       setTemplates(originalTemplate)

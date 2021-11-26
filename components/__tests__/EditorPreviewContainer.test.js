@@ -22,7 +22,14 @@ describe('<EditorPreviewColumn />', () => {
     render(
       <EditorPreviewColumn
         templates={en_EN}
-        selectedSectionSlugs={['title-and-description']}
+        selectedSectionSlugs={[
+          'title-and-description',
+          'authors',
+          'data-availability',
+          'description',
+          'tables',
+          'references',
+        ]}
         getTemplate={(slug) => en_EN.find((t) => t.slug === slug)}
       />
     )
