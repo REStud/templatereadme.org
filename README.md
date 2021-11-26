@@ -26,7 +26,7 @@ See [CONTRIBUTING.md](/CONTRIBUTING.md) for ways to get started.
 
 ## Running the Dev Server
 
-To run the dev server, run \`npm run dev\` and navigate to \`localhost:3000`
+To run the dev server, run `npm run dev` and navigate to `localhost:3000`
 
 ## Feedback
 
