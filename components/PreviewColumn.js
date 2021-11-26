@@ -9,11 +9,11 @@ export const PreviewColumn = ({ selectedSectionSlugs, getTemplate, selectedTab }
   const markdown = selectedSectionSlugs.reduce((acc, section) => {
     const template = getTemplate(section)
     if (template) {
-      return `${acc}${template.markdown}`
+      return \`${acc}${template.markdown}`
     } else {
       return acc
     }
-  }, ``)
+  }, \``)
 
   const showPreview = selectedTab === TAB.PREVIEW
   return (

@@ -18,11 +18,11 @@ export const Nav = ({
   const markdown = selectedSectionSlugs.reduce((acc, section) => {
     const template = getTemplate(section)
     if (template) {
-      return `${acc}${template.markdown}`
+      return \`${acc}${template.markdown}`
     } else {
       return acc
     }
-  }, ``)
+  }, \``)
 
   const { isMobile } = useDeviceDetect()
 
