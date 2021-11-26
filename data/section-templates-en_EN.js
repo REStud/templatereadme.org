@@ -82,7 +82,7 @@ INSTRUCTIONS: In some cases, authors will provide one dataset (file) per data so
 
 | Data file | Source | Notes    |Provided |
 |-----------|--------|----------|---------|
-| \`data/ raw/lbd.dta\` | LBD | Confidential | No |
+| \`data/raw/lbd.dta\` | LBD | Confidential | No |
 | \`data/raw/terra.dta\` | IPUMS Terra | As per terms of use | Yes |
 | \`data/derived/regression_input.dta\`| All listed | Combines multiple data sources, serves as input for Table 2, 3 and Figure 5. | Yes |
 
