@@ -40,12 +40,12 @@ The replication package can have a different set of authors than the article.
     slug: 'data-availability',
     name: 'Data Availability Statements',
     markdown: `
-# Data Availability and Provenance Statements
-### Statement about Rights
+# Data availability and provenance statements
+### Statement about rights
 
 The author(s) of the manuscript have legitimate access to and permission to use the data used in this manuscript.
 
-### Summary of Availability
+### Summary of availability
 <!---
 pick one
 -->
@@ -55,7 +55,7 @@ pick one
 - Some data **cannot be made** publicly available.
 - **No data can be made** publicly available.
 
-### Details on each Data Source
+### Details on each data source
 
 <!---
 rework the relevant examples from below
@@ -72,12 +72,12 @@ rework the relevant examples from below
   },
   {
     slug: 'dataset-list',
-    name: 'Dataset List',
+    name: 'Dataset list',
     markdown: `
 # Dataset list
 
 <!---
-INSTRUCTIONS: In some cases, authors will provide one dataset (file) per data source, and the code to combine them. In others, in particular when data access might be restrictive, the replication package may only include derived/analysis data. Every file should be described. This can be provided as a Excel/CSV table, or in the table below.
+In some cases, authors will provide one dataset (file) per data source, and the code to combine them. In others, in particular when data access might be restrictive, the replication package may only include derived/analysis data. Every file should be described. This can be provided as a Excel/CSV table, or in the table below.
 -->
 
 | Data file | Source | Notes    |Provided |
@@ -95,12 +95,12 @@ INSTRUCTIONS: In some cases, authors will provide one dataset (file) per data so
 # Computational requirements
 
 <!---
-INSTRUCTIONS: In general, the specific computer code used to generate the results in the article will be within the repository that also contains this README. However, other computational requirements - shared libraries or code packages, required software, specific computing hardware - may be important, and is always useful, for the goal of replication. Some example text follows. 
+In general, the specific computer code used to generate the results in the article will be within the repository that also contains this README. However, other computational requirements - shared libraries or code packages, required software, specific computing hardware - may be important, and is always useful, for the goal of replication. Some example text follows. 
 -->
-### Software Requirements
+### Software requirements
 
 <!---
-INSTRUCTIONS: List all of the software requirements, up to and including any operating system requirements, for the entire set of code. It is suggested to distribute most dependencies together with the replication package if allowed, in particular if sourced from unversioned code repositories, Github repos, and personal webpages. In all cases, list the version *you* used. 
+List all of the software requirements, up to and including any operating system requirements, for the entire set of code. It is suggested to distribute most dependencies together with the replication package if allowed, in particular if sourced from unversioned code repositories, Github repos, and personal webpages. In all cases, list the version *you* used. 
 -->
 
 - Stata (code was last run with version 15)
@@ -122,10 +122,10 @@ Portions of the code use bash scripting, which may require Linux.
 
 Portions of the code use Powershell scripting, which may require Windows 10 or higher.
 
-### Memory and Runtime Requirements
+### Memory and runtime requirements
 
 <!---
-INSTRUCTIONS: Memory and compute-time requirements may also be relevant or even critical. Some example text follows. It may be useful to break this out by Table/Figure/section of processing. For instance, some estimation routines might run for weeks, but data prep and creating figures might only take a few minutes.
+Memory and compute-time requirements may also be relevant or even critical. Some example text follows. It may be useful to break this out by Table/Figure/section of processing. For instance, some estimation routines might run for weeks, but data prep and creating figures might only take a few minutes.
 -->
 
 #### Summary
@@ -144,7 +144,7 @@ Portions of the code were last run on a **12-node AWS R3 cluster, consuming 20,0
   },
   {
     slug: 'description',
-    name: 'Description of programs/code',
+    name: 'High-level Description',
     markdown: `
 # Description of programs/code
 
