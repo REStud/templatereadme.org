@@ -138,6 +138,14 @@ export const SectionsColumn = ({
   }
 
   const resetSelectedSections = () => {
+    const defaultSections = [
+      'title-and-description',
+      'authors',
+      'data-availability',
+      'description',
+      'tables',
+      'references',
+    ]
     const data = localStorage.getItem('current-slug-list')
 
     const sectionResetConfirmed = window.confirm(
@@ -146,15 +154,8 @@ export const SectionsColumn = ({
     if (sectionResetConfirmed === true) {
       const slugList = data ? data.split(',') : []
 
-      setSectionSlugs((prev) => [...prev, ...slugList].filter((s) => s !== 'title-and-description'))
-      setSelectedSectionSlugs([
-        'title-and-description',
-        'authors',
-        'data-availability',
-        'description',
-        'tables',
-        'references',
-      ])
+      setSectionSlugs((prev) => [...prev, ...slugList].filter((s) => !defaultSections.includes(s)))
+      setSelectedSectionSlugs(defaultSections)
       setFocusedSectionSlug('title-and-description')
       localStorage.setItem('current-focused-slug', 'noEdit')
       setTemplates(originalTemplate)
