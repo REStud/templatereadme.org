@@ -16,6 +16,15 @@ import useLocalStorage from '../hooks/useLocalStorage'
 import { SortableItem } from './SortableItem'
 import CustomSection from './CustomSection'
 
+const defaultSections = [
+  'title-and-description',
+  'authors',
+  'data-availability',
+  'description',
+  'tables',
+  'references',
+]
+
 const kebabCaseToTitleCase = (str) => {
   return str
     .split('-')
@@ -55,7 +64,7 @@ export const SectionsColumn = ({
   useEffect(() => {
     var slugsFromPreviousSession =
       localStorage.getItem('current-slug-list') == null
-        ? 'title-and-description'
+        ? defaultSections
         : localStorage.getItem('current-slug-list')
     setSlugsFromPreviousSession(slugsFromPreviousSession)
     if (slugsFromPreviousSession.length > 0) {
@@ -138,14 +147,6 @@ export const SectionsColumn = ({
   }
 
   const resetSelectedSections = () => {
-    const defaultSections = [
-      'title-and-description',
-      'authors',
-      'data-availability',
-      'description',
-      'tables',
-      'references',
-    ]
     const data = localStorage.getItem('current-slug-list')
 
     const sectionResetConfirmed = window.confirm(
@@ -248,7 +249,7 @@ export const SectionsColumn = ({
             (pageRefreshed && slugsFromPreviousSession.indexOf('title-and-description') == -1
               ? sectionSlugs.push('title-and-description')
               : ' ',
-            (alphabetizedSectionSlugs = sectionSlugs.sort()),
+            (alphabetizedSectionSlugs = sectionSlugs),
             pageRefreshed || addAction
               ? (alphabetizedSectionSlugs = [...new Set(alphabetizedSectionSlugs)])
               : ' ',
